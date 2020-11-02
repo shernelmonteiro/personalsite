@@ -1,0 +1,245 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient( #FC5E55, #FA4083);
+
+    color: white;
+}
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 0.5px solid lightgrey;
+    padding-bottom: 20px;
+}
+
+.nav-text {
+    display: flex;
+}
+
+.nav-text p {
+    padding-right: 20px;
+}
+
+main {
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+}
+
+section {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box1 {
+    width: 30%;
+    min-height: 300px;
+    background-image: url("image-background-card1.jpg");
+    background-size: cover;
+}
+
+.box2 {
+    width: 30%;
+    min-height: 300px;
+    background-image: url("image-background-card2.jpg");
+    background-size: cover;
+}
+
+.box3 {
+    width: 30%;
+    min-height: 300px;
+    background-image: url("image-background-card3.jpg");
+    background-size: cover;
+}
+
+.mainbox1 {
+    flex: 2;
+}
+
+.mainbox2 {
+    flex: 1;
+}
+
+.mainbox1 h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mainbox1 p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+p {
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+section p {
+    font-size: 0.90rem;
+    line-height: 1rem;
+    padding: 10px 20px;
+}
+
+i {
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #FC5E55;
+
+    padding: 10px 10px;
+    border-radius: 2px;
+    display: in-block;
+}
+
+.mainbox1 a {
+    display: in-block;
+    background-color: white;
+}
+
+.nav-text a {
+    margin-right: 20px;
+}
+
+.myb {
+    color: white;
+    background-color:#FC5E55;
+    border: 1px solid white;
+}
+
+.online {
+    color: white;
+    background-color:#FC5E55;
+    border: 1px solid white;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.mainbox1 a:hover{
+    background-color: cyan;
+    transition: 1s;
+}
+
+.tbox :last-child {
+    font-size: 0.8rem;
+    padding-left: 20px;
+}
+
+.button1 {
+    position: relative;
+
+}
+
+.contents {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top: 30px;
+    white-space: nowrap;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+.button1:hover .contents{
+    display: block;
+}
+
+.button1 .b  a{
+    font-size: 15px;
+    color: #FC5E55;
+}
+
+.contents .b {
+
+    padding-bottom: 10px;
+}
+
+.contact{
+    background-color: white;
+    color: #FC5E55;
+}
+
+.checkbox p {
+    display: inline-block;
+}
+
+.a {
+    display: inline-block;
+}
+
+.c {
+    margin-right: 10px;
+}
+
+.contactform h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.de {
+    margin-bottom: 15px;
+}
+
+.increase{
+    width: 600px;
+    height: 30px;    
+}
+
+textarea {
+    margin-top: 10px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.z {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 150px;
+    padding: 5px 20px;
+}
+
+
